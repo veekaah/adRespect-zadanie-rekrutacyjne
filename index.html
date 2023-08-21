@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>giarddesign</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:ital,wght@0,400;0,500;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="images/giarddesign.svg" alt="Brand Logo" />
+        </a>
+        <button
+          class="navbar-toggler shadow-none border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+        >
+          <i class="bi bi-list"></i>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown hover-dropdown px-2">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#offer"
+                id="offer-dropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+              >
+                Oferta
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#offer">Projekty</a></li>
+                <li><a class="dropdown-item" href="#offer">Wizualizacje</a></li>
+                <li><a class="dropdown-item" href="#offer">Realizacje</a></li>
+              </ul>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#about">O firmie</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#projects">Realizacje</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#contact">Kontakt</a>
+            </li>
+            <li class="nav-item px-2">
+              <a
+                class="nav-link"
+                data-bs-toggle="collapse"
+                href="#searchCollapse"
+                role="button"
+                aria-expanded="false"
+                aria-controls="searchCollapse"
+              >
+                <i class="bi bi-search"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="collapse" id="searchCollapse">
+      <div class="container my-3">
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Szukaj" />
+          <button class="btn btn-outline-success" type="submit">Szukaj</button>
+        </form>
+      </div>
+    </div>
+
+    <section class="section-hero beige-bg">
+      <div id="carouselExampleControls" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container-fluid px-0">
+              <div class="row d-sm-flex">
+                <div class="col-sm-6 p-5 hero-content">
+                  <h1 class="headline m-4 hero-headline">
+                    Nowoczesna <br />
+                    aranżacja <br />
+                    Twojego ogrodu
+                  </h1>
+                  <p class="m-4 hero-text">
+                    Marka GiardDesign to wieloletnie doświadczenie i wysoka
+                    estetyka realizacji. Oferujemy kompleksowy zakres usług z
+                    indywidualnym podejściem do każdego projektu.
+                  </p>
+                  <div class="d-sm-flex buttons m-4">
+                    <a href="#contact">
+                      <button
+                        class="rounded-pill btn btn-success mb-3 mb-sm-0 green-bg hero-btn"
+                      >
+                        Skontaktuj się z nami
+                      </button>
+                    </a>
+
+                    <a href="#projects">
+                      <button
+                        class="py-2 px-3 rounded-pill btn btn-outline-success ms-sm-3 hero-btn"
+                      >
+                        Zobacz nasze realizacje
+                        <i class="bi bi-arrow-down-short"></i>
+                      </button>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-sm-6 p-0">
+                  <div class="image-container">
+                    <img
+                      src="images/Photo.jpg"
+                      class="img-fluid"
+                      alt="Hero Image"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+          <div class="carousel-item">
+            <div class="container-fluid px-0">
+              <div class="row d-sm-flex">
+                <div class="col-sm-6 p-0">
+                  <div class="image-container">
+                    <img
+                      src="images/hero1.jpg"
+                      class="img-fluid"
+                      alt="Hero Image"
+                    />
+                  </div>
+                </div>
+                <div class="col-sm-6 p-0">
+                  <div class="image-container">
+                    <img
+                      src="images/hero2.jpg"
+                      class="img-fluid"
+                      alt="Hero Image"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+          <div class="carousel-item">
+            <div class="container-fluid px-0">
+              <div class="row d-sm-flex">
+                <div class="col-sm-6 p-0">
+                  <div class="image-container">
+                    <img
+                      src="images/hero3.jpg"
+                      class="img-fluid"
+                      alt="Hero Image"
+                    />
+                  </div>
+                </div>
+                <div class="col-sm-6 p-0">
+                  <div class="image-container">
+                    <img
+                      src="images/hero4.jpg"
+                      class="img-fluid"
+                      alt="Hero Image"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+        </div>
+        <!--  -->
+      </div>
+      <div class="carousel-btn">
+        <button class="carousel-button prev-button p-3" type="button">
+          <i class="bi bi-arrow-left"></i>
+        </button>
+        <button class="carousel-button next-button p-3" type="button">
+          <i class="bi bi-arrow-right"></i>
+        </button>
+      </div>
+    </section>
+
+    <section class="section-offer p-5" id="offer">
+      <div class="offer-content py-5">
+        <div class="offer-text-box p-5 text-md-start text-center">
+          <p class="green-text">Oferta</p>
+          <h1 class="headline">
+            Działamy <span class="fst-italic">kompleksowo</span>
+          </h1>
+          <p>
+            Oferujemy kompletną obsługę inwestycji terenów zielonych.
+            Projektujemy nowoczesne ogrody przydomowe oraz rezydencjonalne.
+            Stworzymy dla Ciebie projekt, zwizualizujemy go i wcielimy w życie,
+            a na każdym etapie posłużymy radą i wieloletnim doświadczeniem.
+          </p>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-sm-12 mb-4">
+              <div
+                class="card p-4 h-100 d-flex flex-column border-0 text-center text-md-start card-offer"
+              >
+                <i class="bi bi-pencil-fill mb-3 fs-6"></i>
+                <p class="h5">Projekty</p>
+                <div class="flex-grow-1">
+                  <p class="small">
+                    Zaprojektujemy Twój ogród w nowoczesnym stylu i z najlepszym
+                    wykorzystaniem istniejącej przestrzeni.
+                  </p>
+                </div>
+                <a href="#projects" class="link-offset-3 green-text"
+                  >Dowiedz się więcej <i class="bi bi-arrow-right-short"></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-12 mb-4">
+              <div
+                class="card p-4 h-100 d-flex flex-column border-0 text-center text-md-start card-offer"
+              >
+                <i class="bi bi-eye-fill mb-3 fs-6"></i>
+                <p class="h5">Wizualizacje</p>
+                <div class="flex-grow-1">
+                  <p class="small">
+                    Przedstawimy Ci projekty koncepcyjne w postaci wirtualnego
+                    spaceru animowanego w technologii 3D.
+                  </p>
+                </div>
+                <a href="#projects" class="link-offset-3 green-text"
+                  >Dowiedz się więcej <i class="bi bi-arrow-right-short"></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-12 mb-4">
+              <div
+                class="card p-4 h-100 d-flex flex-column border-0 text-center text-md-start card-offer"
+              >
+                <i class="bi bi-star-fill mb-3 fs-6"></i>
+                <p class="h5">Realizacje</p>
+                <div class="flex-grow-1">
+                  <p class="small">
+                    Zrealizujemy Twoje marzenie przy użyciu najnowszych
+                    rozwiązań i zaawansowanych technologii.
+                  </p>
+                </div>
+                <a href="#projects" class="link-offset-3 green-text"
+                  >Zobacz nasze realizacje
+                  <i class="bi bi-arrow-right-short"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-about green-bg" id="about">
+      <div class="container-fluid p-0 m-0">
+        <div class="row g-6">
+          <div class="col-md-6 px-0 m-0">
+            <div class="image-container h-100">
+              <img
+                src="images/house.png"
+                class="img-fluid h-100"
+                alt="House image"
+              />
+            </div>
+          </div>
+          <div
+            class="col-md-6 d-flex align-items-center justify-content-center p-5"
+          >
+            <div class="about-text-box">
+              <p>O firmie</p>
+              <h1 class="headline mb-4">
+                Tworzymy <br />
+                z <span class="fst-italic">pasją</span>
+              </h1>
+              <p class="mb-5">
+                Każdy projekt to nowe wyzwanie. Dlatego nasz zespół tworzą
+                wykwalifikowani projektanci oraz architekci, których zadaniem
+                jest rozpoznanie i realizacja potrzeb każdego Klienta. Nasza
+                specjalizacja to przestrzenie nowoczesne, które charakteryzuje
+                minimalizm, geometria i elegancka prostota. Tworzymy ogrody
+                małoobsługowe, dostosowane do współczesnego trybu życia.
+              </p>
+              <button type="button" class="btn btn-outline-light rounded-pill">
+                Poznaj nas bliżej <i class="bi bi-arrow-right-short"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-projects beige-bg" id="projects">
+      <div class="gradient">
+        <div class="about-text-box p-5">
+          <p class="green-text">Realizacje</p>
+          <h1 class="headline mb-4">
+            Nasze <span class="fst-italic"> projekty</span>
+          </h1>
+        </div>
+        <div>
+          <div class="" id="masonry-container">
+            <div class="masonry-item">
+              <div class="card">
+                <img
+                  src="images/gallery1.png"
+                  class="card-img"
+                  alt="Image 1"
+                  onclick="openPopup('images/gallery1.png', 'Image 1')"
+                />
+              </div>
+            </div>
+            <div class="masonry-item">
+              <div class="card">
+                <img
+                  src="images/gallery2.png"
+                  class="card-img"
+                  alt="Image 2"
+                  onclick="openPopup('images/gallery2.png', 'Image 2')"
+                />
+              </div>
+            </div>
+            <div class="masonry-item">
+              <div class="card">
+                <img
+                  src="images/gallery3.png"
+                  class="card-img"
+                  alt="Image 3"
+                  onclick="openPopup('images/gallery3.png', 'Image 3')"
+                />
+              </div>
+            </div>
+            <div class="masonry-item">
+              <div class="card">
+                <img
+                  src="images/gallery4.png"
+                  class="card-img"
+                  alt="Image 4"
+                  onclick="openPopup('images/gallery4.png', 'Image 4')"
+                />
+              </div>
+            </div>
+            <div class="masonry-item">
+              <div class="card">
+                <img
+                  src="images/gallery5.png"
+                  class="card-img"
+                  alt="Image 5"
+                  onclick="openPopup('images/gallery5.png', 'Image 5')"
+                />
+              </div>
+            </div>
+            <div class="masonry-item">
+              <div class="card">
+                <img
+                  src="images/gallery6.png"
+                  class="card-img"
+                  alt="Image 6"
+                  onclick="openPopup('images/gallery6.png', 'Image 6')"
+                />
+              </div>
+            </div>
+            <div class="masonry-item">
+              <div class="card">
+                <img
+                  src="images/gallery7.png"
+                  class="card-img"
+                  alt="Image 7"
+                  onclick="openPopup('images/gallery7.png', 'Image 7')"
+                />
+              </div>
+            </div>
+            <div class="masonry-item">
+              <div class="card">
+                <img
+                  src="images/gallery8.png"
+                  class="card-img"
+                  alt="Image 8"
+                  onclick="openPopup('images/gallery8.png', 'Image 8')"
+                />
+              </div>
+            </div>
+            <div class="masonry-item">
+              <div class="card">
+                <img
+                  src="images/gallery9.png"
+                  class="card-img"
+                  alt="Image 9"
+                  onclick="openPopup('images/gallery9.png', 'Image 9')"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        type="button"
+        class="remove-gradient btn btn-outline-dark rounded-pill mx-auto"
+        onclick="removeGradient()"
+      >
+        Rozwiń <i class="bi bi-arrow-down-short"></i>
+      </button>
+    </section>
+
+    <section class="section-ig mx-3 mx-md-5 px-3 px-md-4 py-5" id="contact">
+      <div class="container green-bg p-5 text-center text-md-start">
+        <div class="row align-items-center">
+          <div class="col-md-7 col-lg-8">
+            <h1 class="headline fs-4">
+              Zostańmy w kontakcie! <br />
+              Znajdziesz nas na
+              <span class="fst-italic">Instagramie.</span>
+            </h1>
+          </div>
+          <div class="col-md-5 col-lg-4 text-center text-md-end mt-4 mt-md-0">
+            <p class="mb-2">Śledź nasze najnowsze realizacje!</p>
+            <button class="rounded-pill btn btn-light green-text">
+              Instagram
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-dark text-white p-5">
+      <div
+        class="container d-md-flex justify-content-between align-items-center border-bottom pb-5"
+      >
+        <div class="d-flex align-items-center">
+          <img src="images/giarddesign2.svg" alt="Logo" class="img-fluid" />
+        </div>
+        <div class="d-flex justify-content-between align-items-center">
+          <p class="mb-0 mx-3 footer-text">
+            Daj znać, co możemy dla Ciebie zrobić!
+          </p>
+          <button
+            class="rounded-pill btn btn-success btn-sm green-bg p-2 footer-text"
+          >
+            Skontaktuj się z nami
+          </button>
+        </div>
+      </div>
+      <div class="container pt-5">
+        <div class="row align-items-center mb-4">
+          <div class="col-md-6 text-center text-md-start">
+            <div
+              class="d-flex justify-content-center justify-content-md-start mb-2 mb-md-0 footer-text footer-info"
+            >
+              <a href="#" class="text-white text-decoration-none">Kontakt</a>
+              <a href="#" class="text-white text-decoration-none">Instagram</a>
+              <a href="#" class="text-white text-decoration-none">Facebook</a>
+              <a href="#" class="text-white text-decoration-none">LinkedIn</a>
+            </div>
+          </div>
+          <div class="col-md-6 text-center text-md-end">
+            <div
+              class="d-flex justify-content-center justify-content-md-end footer-text"
+            >
+              <p class="mb-0 mx-3">000-000-000</p>
+              <p class="mb-0">giarddesign@kontakt.pl</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 text-center text-md-start footer-text">
+            <p class="mb-0">Prawa zastrzeżone © 2022</p>
+          </div>
+          <div class="col-md-6 text-center text-md-end">
+            <div
+              class="d-flex justify-content-center justify-content-md-end footer-text"
+            >
+              <a href="#" class="text-white text-decoration-none"
+                >Made by
+                <img src="images/logo-full-light.svg" class="img-fluid ml-2" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  </body>
+</html>
