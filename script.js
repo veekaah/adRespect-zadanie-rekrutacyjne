@@ -61,11 +61,6 @@ function closePopup(event) {
   }
 }
 
-// function removeGradient() {
-//   const gradient = document.querySelector(".gradient");
-//   gradient.style.background = none;
-// }
-
 function removeGradient() {
   const gradientOverlay = document.querySelector(".gradient");
   const removeBtn = document.querySelector(".remove-gradient");
